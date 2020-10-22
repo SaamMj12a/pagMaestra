@@ -1,0 +1,76 @@
+body{
+    background: #BBDEFB;
+    }
+header {
+        text-align: center;
+        color: blue;
+        font-family: "fantasy";
+        text-shadow: 10px 5px 5px black; 
+    
+    }
+h1{
+    text-align: center;
+    font-family: "fantasy";
+    text-shadow: 10px 5px 5px red;
+}
+h2{
+    text-align: center;
+    font-family: "Cursive";
+    text-shadow: 10px -2px 5px pink;
+    }
+ .Tarjeta{
+        width: 300px;
+        border: 1px solid blue;
+        text-align: center;
+        flex-grow: 1;
+    }
+.Tarjeta img{
+        width: 500px;
+    }
+.Tarjeta p{
+        text-align: center;
+        font-size: 18px;
+    }
+nav{
+    background: #BCAAA4;
+    } 
+    
+ul{
+    list-style: none;
+    padding: Opx;
+    display: flex;
+    
+}
+ul a{
+    flex-grow: 1;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+}
+ul li:hover{
+    cursor: pointer;
+    background: violet;
+    color: white;
+    transition: 3s;
+}
+section:hover{
+    background: #FFCCBC;
+    transition: 3s;
+} 
+
+.Tarjeta1{
+    width: 300px;
+    border: 1px solid blue;
+    text-align: center;
+    flex-grow: 1;
+}
+.Tarjeta1 img{
+    width: 255px;
+    text-align: center;
+}
+.Tarjeta1 p{
+    text-align: center;
+    font-size: 18px;
+}
